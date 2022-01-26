@@ -170,7 +170,7 @@ def setup_recording(): #set two recordings up on HDD
 #Test functions
 
 def capture(): #Takes a capture through USB capture card
-    capture_card = cv.VideoCapture(0)
+    capture_card = cv.VideoCapture(1)
     capture_card.set(cv.CAP_PROP_FRAME_WIDTH, 1920) #Takes capture in 1080p
     capture_card.set(cv.CAP_PROP_FRAME_HEIGHT, 1080) 
     return_value, image = capture_card.read() #Opens capture card in read mode
