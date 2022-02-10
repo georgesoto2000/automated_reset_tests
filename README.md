@@ -3,3 +3,5 @@ An automation script written to test the factory, settings and hard drive reset 
 
 Captures are taken using OpenCV and OCR (the engine used is pytesseract wrapper for Google Tesseract) is used on the captures to verify on screen menus (OSMs).
 sky-remote.js file is used for RCU emulation (from https://github.com/dalhundal/sky-remote)
+
+sky.py has the defined classes and reset_tests.py contain the test functions.
